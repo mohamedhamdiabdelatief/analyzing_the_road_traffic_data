@@ -45,4 +45,4 @@
 
         run streaming_data_reader.py
         
-## Building ETL Pipeline using Apache Kafka
+## Building ETL Pipeline using Apache Airflow
