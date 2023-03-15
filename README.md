@@ -46,3 +46,12 @@
         run streaming_data_reader.py
         
 ## Building ETL Pipeline using Apache Airflow
+
+        Submit ETL_toll_data dag:
+        cp ETL_toll_data.py  $AIRFLOW_HOME/dags 
+        
+        command that unpause dag:
+        airflow dags unpause ETL_toll_data
+        
+        List dags to ensure that dag runs successfully:
+        airflow dags list
