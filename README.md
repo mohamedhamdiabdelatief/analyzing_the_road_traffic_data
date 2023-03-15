@@ -2,8 +2,8 @@
 ## Building ETL Pipeline using Airflow & Kafka
     collect data available in different formats and consolidate it into a single file.
     
-            Download Kafka:
-            wget https://archive.apache.org/dist/kafka/2.8.0/kafka_2.12-2.8.0.tgz
+        Download Kafka:
+        wget https://archive.apache.org/dist/kafka/2.8.0/kafka_2.12-2.8.0.tgz
 
         Extract Kafka:
         tar -xzf kafka_2.12-2.8.0.tgz
